@@ -153,6 +153,12 @@
               )
               # Add a metadata element so that things like `nix run` point at the main script
               (env: lib.addMetaAttrs { mainProgram = projectName; } env)
+              (env: env.overrideAttrs (old: {
+                fixupPhase = ''
+                  ${old.fixupPhase or ""}
+                  rm $out/bin/activate
+                '';
+              }))
             ];
 
           # Build the "release" virtualenv, used for `nix run` or container builds.
