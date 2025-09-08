@@ -192,6 +192,7 @@
         attrNames: lib.genAttrs attrNames (attrName: eachSystem (system: (perSystem system)."${attrName}"));
       flakeOutput = applySystemToAttrs [
         "devShells"
+        "packages"
       ];
     in
     flakeOutput;
