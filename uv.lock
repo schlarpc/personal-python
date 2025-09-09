@@ -3224,7 +3224,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/04/89/76f6f1b744c8608e0
 
 [[package]]
 name = "personal-python"
-version = "0.3.0"
+version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "aiofile" },
