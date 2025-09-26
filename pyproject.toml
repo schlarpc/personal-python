@@ -75,6 +75,7 @@ dependencies = [
  "jinja2>=3.1.6",
  "jmespath>=1.0.1",
  "jsonpath-ng>=1.7.0",
+ "jsonschema>=4.25.1",
  "kiwisolver>=1.4.9",
  "lark>=1.2.2",
  "lazy-object-proxy>=1.12.0",
