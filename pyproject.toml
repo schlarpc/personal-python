@@ -122,6 +122,7 @@ dependencies = [
  "pycipher>=0.5.2",
  "pycryptodome>=3.23.0",
  "pydantic>=2.11.7",
+ "pyelftools>=0.32",
  "pyflakes>=3.4.0",
  "pygments>=2.19.2",
  "pygraphviz>=1.14",
