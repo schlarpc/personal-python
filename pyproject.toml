@@ -22,6 +22,7 @@ dependencies = [
  "awscrt>=0.26.1",
  "bbpb>=1.4.2",
  "beautifulsoup4>=4.13.5",
+ "bgutil-ytdlp-pot-provider>=1.2.2",
  "black>=25.1.0",
  "bleach>=6.2.0",
  "boltons>=25.0.0",
