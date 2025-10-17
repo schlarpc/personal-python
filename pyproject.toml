@@ -132,6 +132,7 @@ dependencies = [
  "pylint>=3.3.8",
  "pynamodb>=6.1.0",
  "pypdf2>=3.0.1",
+ "pyroaring>=1.0.3",
  "pyserial>=3.5",
  "pysimdjson>=7.0.2",
  "pysnmp>=7.1.21",
