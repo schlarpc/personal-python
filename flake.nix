@@ -148,7 +148,9 @@
               (
                 env:
                 env.overrideAttrs (old: {
-                  venvIgnoreCollisions = [ ];
+                  venvIgnoreCollisions = [
+                    "lib/python*/site-packages/test/internaldafny/generated/module_.py"
+                  ];
                 })
               )
               # Add a metadata element so that things like `nix run` point at the main script
