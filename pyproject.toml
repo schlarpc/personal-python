@@ -49,6 +49,7 @@ dependencies = [
  "dataclasses-json>=0.6.7",
  "datasette>=0.65.1",
  "dateparser>=1.2.2",
+ "dearpygui>=2.1.1",
  "deepdiff>=8.6.1",
  "dill>=0.4.0",
  "discord-py>=2.6.3",
