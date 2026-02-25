@@ -99,6 +99,7 @@ dependencies = [
  "mypy>=1.17.1",
  "myst-parser>=4.0.1",
  "natsort>=8.4.0",
+ "neo4j>=6.1.0",
  "networkx>=3.5",
  "nltk>=3.9.1",
  "nuitka>=2.7.13",
