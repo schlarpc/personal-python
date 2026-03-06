@@ -116,6 +116,8 @@
                 sansio-multipart.setuptools = [ ];
                 toutatis.setuptools = [ ];
                 z3.setuptools = [ ];
+                esprima.setuptools = [ ];
+                pyjsparser.setuptools = [ ];
               };
             in
             builtins.mapAttrs (
