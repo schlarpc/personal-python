@@ -80,6 +80,9 @@
               });
               python-libarchive = _prev.python-libarchive.overrideAttrs (old: {
                 buildInputs = (old.buildInputs or []) ++  [ pkgs.libarchive.dev ];
+                # Without a prefix, setup.py links with the GNU-only `-l:libarchive.so`,
+                # which Apple's ld rejects. Headers come from libarchive.dev above.
+                env = (old.env or {}) // { LIBARCHIVE_PREFIX = "${pkgs.libarchive.out}"; };
               });
               asks = _prev.asks.overrideAttrs (old: {
                 nativeBuildInputs = old.nativeBuildInputs ++ [ _final.h11 ];
